@@ -1,8 +1,26 @@
 aid: altruist-iconnectiva
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altruist-iconnectiva.png
 name: Altruist (iConnectiva)
-description: 'Altruist (iConnectiva) is a company surfaced as a portfolio company of sapphire-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'iConnectiva (Connectiva Analytics and Insights Ltd), part of Altruist
+  Technologies Pvt. Ltd., is a telecom analytics product and services company focused
+  on subscriber-data monetization. Its RAFMS platform delivers Revenue Assurance and
+  Fraud Management to telecom, media and utility operators, alongside Big Data analytics
+  to lower churn, boost ARPU and reduce revenue leakage. iConnectiva reports managing
+  350+ million subscribers for Revenue Assurance and Fraud Management, handling 500+
+  million customers, processing 15+ billion CDR/day, a repository of 400+ KPIs across
+  RA and FMS, and 1000+ adaptors, delivered through advisory, tool-based and managed
+  services. No public API, developer portal, or SDK surface is published.'
 url: https://raw.githubusercontent.com/api-evangelist/altruist-iconnectiva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,25 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-identity-note: 'AMBIGUITY: the Sapphire Ventures portfolio company named "Altruist"
+  is the US fintech RIA custodian at altruist.com (public API at developer.altruist.com).
+  This repo was pointed at altruistindia.com/iConnectiva/ — a different entity, the
+  India telecom BPO Altruist Technologies Pvt. Ltd. and its acquired RA/FMS unit
+  iConnectiva. Enrichment here reflects the entity actually linked (iConnectiva),
+  which has no public API surface. Re-point or split if the fintech custodian was
+  intended.'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Infrastructure
+- Telecommunications
+- Revenue Assurance
+- Fraud Management
+- Analytics
+- Big Data
+- Managed Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/altruist-iconnectiva-domain-security.yml
 - type: Website
   url: http://www.altruistindia.com/iConnectiva/
+- type: About
+  url: https://www.altruistindia.com/about-us/index.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

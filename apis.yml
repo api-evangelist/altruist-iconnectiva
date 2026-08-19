@@ -35,7 +35,7 @@ x-identity-note: 'AMBIGUITY: the Sapphire Ventures portfolio company named "Altr
   iConnectiva. Enrichment here reflects the entity actually linked (iConnectiva),
   which has no public API surface. Re-point or split if the fintech custodian was
   intended.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:

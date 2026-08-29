@@ -33,6 +33,8 @@ description: 'iConnectiva (Connectiva Analytics and Insights Ltd), part of Altru
   RA and FMS, and 1000+ adaptors, delivered through advisory, tool-based and managed
   services. No public API, developer portal, or SDK surface is published.'
 url: https://raw.githubusercontent.com/api-evangelist/altruist-iconnectiva/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
